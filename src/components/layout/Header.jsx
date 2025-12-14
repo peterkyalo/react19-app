@@ -1,5 +1,12 @@
+import { Naviagation } from "./Naviagation";
+
 function Header() {
-  return <h1>This is a header component in React</h1>;
+  return (
+    <>
+      <Naviagation />
+      <h1>This is Header component!</h1>
+    </>
+  );
 }
 
 export default Header;
