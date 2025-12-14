@@ -1,3 +1,3 @@
-export const Button = ({ label }) => {
-  return <button> { label || "Click Me" } </button>;
+export const Button = ({ label = "Click Me", clickHandler }) => {
+  return <button onClick={clickHandler}> {label} </button>;
 };
